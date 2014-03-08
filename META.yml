@@ -1,0 +1,30 @@
+---
+abstract: 'Abuse the plack debug panel and keep your todo list in it.'
+author:
+  - 'Manni Heumann, C<< <cpan@lxxi.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  Test::MockModule: 0
+  Test::Most: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-Middleware-Debug-Notepad
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Plack: 0
+  Text::Markdown: 0
+  Text::MicroTemplate: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/mannih/Plack-Middleware-Debug-Notepad.git
+version: 0.01
