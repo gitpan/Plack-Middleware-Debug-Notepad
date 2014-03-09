@@ -22,9 +22,10 @@ no_index:
     - t
 requires:
   Plack: 0
+  Plack::Middleware::Debug: 0
   Text::Markdown: 0
   Text::MicroTemplate: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mannih/Plack-Middleware-Debug-Notepad.git
-version: 0.01
+version: 0.02
