@@ -60,7 +60,7 @@
    "provides" : {
       "Plack::Middleware::Debug::Notepad" : {
          "file" : "lib/Plack/Middleware/Debug/Notepad.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -74,7 +74,7 @@
          "web" : "https://github.com/mannih/Plack-Middleware-Debug-Notepad"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "Manni Heumann <github@lxxi.org>"
    ]
