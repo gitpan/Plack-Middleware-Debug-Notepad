@@ -7,10 +7,11 @@ build_requires:
   Test::MockModule: 0
   Test::Most: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.11.1, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,14 +19,27 @@ meta-spec:
 name: Plack-Middleware-Debug-Notepad
 no_index:
   directory:
-    - inc
     - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  Plack::Middleware::Debug::Notepad:
+    file: lib/Plack/Middleware/Debug/Notepad.pm
+    version: 0.03
 requires:
   Plack: 0
   Plack::Middleware::Debug: 0
   Text::Markdown: 0
   Text::MicroTemplate: 0
 resources:
-  license: http://dev.perl.org/licenses/
-  repository: http://github.com/mannih/Plack-Middleware-Debug-Notepad.git
-version: 0.02
+  bugtracker: https://github.com/mannih/Plack-Middleware-Debug-Notepad/issues
+  homepage: https://github.com/mannih/Plack-Middleware-Debug-Notepad
+  repository: git://github.com/mannih/Plack-Middleware-Debug-Notepad
+version: 0.03
+x_contributors:
+  - 'Manni Heumann <github@lxxi.org>'
