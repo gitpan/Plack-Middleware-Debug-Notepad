@@ -30,7 +30,7 @@ no_index:
 provides:
   Plack::Middleware::Debug::Notepad:
     file: lib/Plack/Middleware/Debug/Notepad.pm
-    version: '0.05'
+    version: '0.06'
 requires:
   Plack: '0'
   Plack::Middleware::Debug: '0'
@@ -40,6 +40,6 @@ resources:
   bugtracker: https://github.com/mannih/Plack-Middleware-Debug-Notepad/issues
   homepage: https://github.com/mannih/Plack-Middleware-Debug-Notepad
   repository: git://github.com/mannih/Plack-Middleware-Debug-Notepad.git
-version: '0.05'
+version: '0.06'
 x_contributors:
   - 'Manni Heumann <github@lxxi.org>'
