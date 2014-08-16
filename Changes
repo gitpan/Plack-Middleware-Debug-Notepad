@@ -1,3 +1,7 @@
+0.07 2014-08-16T13:34:10Z
+
+    - Add some stlyes for links
+
 0.06 2014-03-19T08:51:32Z
 
     - Fix the generated HTML: close the outer div, too.
